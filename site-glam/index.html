@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Glam Chick - Acessórios com atitude</title>
+
+  <!-- Fonte elegante -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background-color: #ffffff;
+      background-image: url('https://www.transparenttextures.com/patterns/white-diamond.png');
+      color: #000;
+      text-align: center;
+    }
+
+    header {
+      padding: 20px;
+    }
+
+    .logo {
+      width: 200px;
+      margin: 30px auto;
+      display: block;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .logo:hover {
+      transform: scale(1.06);
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-top: 10px;
+      letter-spacing: 1px;
+    }
+
+    .frase-impacto {
+      font-size: 20px;
+      color: #555;
+      margin: 15px 0 30px;
+      font-style: italic;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      font-size: 16px;
+      text-decoration: none;
+      color: #000;
+      border: 2px solid #000;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #ff69b4;
+      color: #fff;
+      border-color: #ff69b4;
+    }
+
+    .info {
+      margin: 40px 0;
+    }
+
+    .pagamentos img {
+      height: 30px;
+      margin: 0 10px;
+      vertical-align: middle;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- LOGO -->
+  <header>
+    <img src="logo.jpeg" alt="Logo da Glam Chick" class="logo"/>
+    <h1>Glam Chick</h1>
+    <p class="frase-impacto">Acessórios com atitude para brilhar em qualquer ocasião ✨</p>
+  </header>
+
+  <!-- BOTÕES -->
+  <div>
+    <a href="https://wa.me/5561998867342" class="btn" target="_blank">WhatsApp</a>
+    <a href="https://www.instagram.com/glamchicdf?igsh=bmltZDd5bDVqNW9z" class="btn" target="_blank">Instagram</a>
+    <a href="https://wa.me/c/556198867342" class="btn" target="_blank">Catálogo</a>
+  </div>
+
+  <!-- INFO ADICIONAL -->
+  <div class="info">
+    <p><strong>✔ Fazemos entregas em todo o Brasil</strong></p>
+    <p><strong>✔ Aceitamos diversas formas de pagamento:</strong></p>
+    <div class="pagamentos">
+      <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa"/>
+      <img src="https://img.icons8.com/color/48/000000/mastercard.png" alt="MasterCard"/>
+      <img src="https://img.icons8.com/color/48/000000/pix.png" alt="Pix"/>
+    </div>
+  </div>
+
+  <!-- RODAPÉ -->
+  <footer>
+    <p>&copy; 2025 Glam Chick. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
